@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+     @import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&family=Medula+One&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Playwrite+NZ+Guides&family=Questrial&family=Sekuya&display=swap');
+
+body{
+    background: linear-gradient(gray, rgb(44, 40, 40));
+    height: 110vh;
+    color: white;
+    font-family: 'DotGothic16', sans-serif;
+    margin: 10px;
+}
+
+button{
+    color: white;
+     width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    background: linear-gradient(rgb(6, 0, 123), rgb(0, 30, 255));
+    font-weight: bold;
+    position: relative;
+    left: 25px;
+}
+
+button:hover{
+    scale: 1.2;
+}

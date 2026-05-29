@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+
+    <link rel="stylesheet" href="./calculadora.css">
+</head>
+
+<body>
+    <center>
+
+
+        <form>
+            <h1>Calculadora de Juros</h1>
+
+            <br>
+            <label for="capital">Capital</label>
+            <br>
+            <input type="number" id="capital" name="capital"><br><br>
+
+            <label for="taxa">Taxa</label>
+            <br>
+            <input type="number" id="taxa" name="taxa"><br><br>
+
+            <label for="tempo">Tempo (meses)</label>
+            <br>
+            <input type="number" id="tempo" name="tempo"><br><br>
+
+            <label for="juros">Escolha um tipo de juros</label>
+            <br>
+
+            <select name="juros" id="juros">
+                <option value="" selected disabled>
+                    Selecione uma opção
+                </option>
+
+                <option value="simples">
+                    Juros Simples
+                </option>
+
+                <option value="composto">
+                    Juros Compostos
+                </option>
+            </select>
+
+            <br><br><br><br><br>
+            <button class="calculo" type="button" onclick="calcular()">
+                Calcular
+            </button>
+
+
+            <p id="resposta"></p>
+            <br><br>
+
+
+            <button class="limpar" id="resetar" onclick="calcular()">
+                Limpar dados
+            </button>
+
+
+        </form>
+    </center>
+
+    <div class="card">
+    <h1>Calculadora de Juros:</h1><br><br>
+    <p>Temos também uma página única <br> e personalizada para explicar o <br> que é juros simples e juros compostos, clique no botão abaixo para visita-la!</p>
+    <br><br>
+   <a href="./pagina.html"> <button id="confira" onclick="">Confira</button></a>
+    </div>
+
+
+    <script src="./calculadora.js"></script>
+
+</body>
+
+</html>
