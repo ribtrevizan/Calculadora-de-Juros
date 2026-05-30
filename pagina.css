@@ -23,8 +23,10 @@ button{
     font-weight: bold;
     position: relative;
     left: 25px;
+    cursor: pointer;
 }
 
 button:hover{
     scale: 1.2;
+    cursor: pointer;
 }
